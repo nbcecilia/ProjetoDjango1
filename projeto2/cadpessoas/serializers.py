@@ -1,4 +1,4 @@
-from rest_framework import serializers  # ferramentas do DRF para (de)serializar
+from rest_framework import serializers  # type: ignore  # ferramentas do DRF para (de)serializar
 from .models import Pessoas  # modelo Pessoas do app
 
 
